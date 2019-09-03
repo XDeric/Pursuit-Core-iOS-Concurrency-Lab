@@ -1,6 +1,6 @@
 //
 //  DetailViewController.swift
-//  Concurrency
+//  Concurrency_2
 //
 //  Created by EricM on 9/3/19.
 //  Copyright © 2019 EricM. All rights reserved.

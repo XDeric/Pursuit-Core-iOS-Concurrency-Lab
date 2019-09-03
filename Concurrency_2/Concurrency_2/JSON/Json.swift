@@ -15,7 +15,7 @@ struct Country: Codable{
     let capital: String
     let population: Int
     let currencies: [currency]
-
+    
     static func getCountry(from data: Data) -> Country{
         do{
             let state = try JSONDecoder().decode(Country.self, from: data)

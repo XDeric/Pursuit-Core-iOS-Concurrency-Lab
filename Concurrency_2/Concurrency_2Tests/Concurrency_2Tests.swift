@@ -1,15 +1,15 @@
 //
-//  ConcurrencyTests.swift
-//  ConcurrencyTests
+//  Concurrency_2Tests.swift
+//  Concurrency_2Tests
 //
 //  Created by EricM on 9/3/19.
 //  Copyright © 2019 EricM. All rights reserved.
 //
 
 import XCTest
-@testable import Concurrency
+@testable import Concurrency_2
 
-class ConcurrencyTests: XCTestCase {
+class Concurrency_2Tests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
