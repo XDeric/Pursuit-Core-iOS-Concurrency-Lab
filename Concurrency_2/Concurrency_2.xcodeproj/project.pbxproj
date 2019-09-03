@@ -13,7 +13,6 @@
 		8587DDFF231F078800C56F0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8587DDFE231F078800C56F0E /* Assets.xcassets */; };
 		8587DE02231F078800C56F0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8587DE00231F078800C56F0E /* LaunchScreen.storyboard */; };
 		8587DE0D231F078900C56F0E /* Concurrency_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8587DE0C231F078900C56F0E /* Concurrency_2Tests.swift */; };
-		8587DE18231F07D300C56F0E /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8587DE17231F07D300C56F0E /* CountryTableViewCell.swift */; };
 		8587DE1C231F08AD00C56F0E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8587DE1B231F08AD00C56F0E /* DetailViewController.swift */; };
 		8587DE1E231F08BD00C56F0E /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8587DE1D231F08BD00C56F0E /* Json.swift */; };
 		8587DE22231F08E000C56F0E /* money.json in Resources */ = {isa = PBXBuildFile; fileRef = 8587DE21231F08E000C56F0E /* money.json */; };
@@ -42,7 +41,6 @@
 		8587DE08231F078900C56F0E /* Concurrency_2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Concurrency_2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8587DE0C231F078900C56F0E /* Concurrency_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concurrency_2Tests.swift; sourceTree = "<group>"; };
 		8587DE0E231F078900C56F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8587DE17231F07D300C56F0E /* CountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
 		8587DE1B231F08AD00C56F0E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		8587DE1D231F08BD00C56F0E /* Json.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Json.swift; sourceTree = "<group>"; };
 		8587DE21231F08E000C56F0E /* money.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = money.json; sourceTree = "<group>"; };
@@ -93,7 +91,6 @@
 				8587DE27231F0A8E00C56F0E /* JSON */,
 				8587DE1B231F08AD00C56F0E /* DetailViewController.swift */,
 				8587DDF9231F078800C56F0E /* ViewController.swift */,
-				8587DE17231F07D300C56F0E /* CountryTableViewCell.swift */,
 				8587DDFB231F078800C56F0E /* Main.storyboard */,
 				8587DDFE231F078800C56F0E /* Assets.xcassets */,
 				8587DE03231F078800C56F0E /* Info.plist */,
@@ -234,7 +231,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8587DE18231F07D300C56F0E /* CountryTableViewCell.swift in Sources */,
 				8587DE1E231F08BD00C56F0E /* Json.swift in Sources */,
 				8587DDFA231F078800C56F0E /* ViewController.swift in Sources */,
 				8587DDF8231F078800C56F0E /* AppDelegate.swift in Sources */,

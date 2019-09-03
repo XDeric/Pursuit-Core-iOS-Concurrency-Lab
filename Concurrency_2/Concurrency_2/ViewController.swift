@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
     
     var state = [Country]()
+    
     @IBOutlet weak var tableViewOutlet: UITableView!
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -36,10 +37,20 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         do {
             let data = try Data(contentsOf: url)
             let resultsFromJSON = Country.getCountry(from: data)
-            state = [resultsFromJSON]
+            state = resultsFromJSON
         } catch {
             fatalError("Could not decode")
         }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard segue.identifier != nil else { fatalError("No identifier in segue")
+        }
+        guard let countryVC = segue.destination as? DetailViewController
+            else { fatalError("Unexpected segue")}
+        guard let selectedIndexPath = tableViewOutlet.indexPathForSelectedRow
+            else { fatalError("No row selected") }
+        countryVC.countries = state[selectedIndexPath.row]
     }
     
     override func viewDidLoad() {

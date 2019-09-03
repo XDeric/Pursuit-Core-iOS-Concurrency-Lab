@@ -49,7 +49,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="jVj-I4-LCp" kind="show" id="fJN-zL-pzv"/>
+                                            <segue destination="jVj-I4-LCp" kind="show" identifier="countrySegway" id="fJN-zL-pzv"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -72,15 +72,18 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="0iy-MB-b7H"/>
+                    <connections>
+                        <outlet property="tableViewOutlet" destination="Vkm-7D-tvy" id="DUH-XM-C8b"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="956.52173913043487" y="756.69642857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="ia0-Cp-ZMl">
             <objects>
-                <viewController id="jVj-I4-LCp" sceneMemberID="viewController">
+                <viewController id="jVj-I4-LCp" customClass="DetailViewController" customModule="Concurrency_2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ilG-k0-IRZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

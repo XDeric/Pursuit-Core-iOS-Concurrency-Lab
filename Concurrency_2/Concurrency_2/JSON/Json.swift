@@ -16,9 +16,9 @@ struct Country: Codable{
     let population: Int
     let currencies: [currency]
     
-    static func getCountry(from data: Data) -> Country{
+    static func getCountry(from data: Data) -> [Country]{
         do{
-            let state = try JSONDecoder().decode(Country.self, from: data)
+            let state = try JSONDecoder().decode([Country].self, from: data)
             return state
         } catch let anError { fatalError( "\(anError)" )}
     }
