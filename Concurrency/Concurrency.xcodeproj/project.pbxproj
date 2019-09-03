@@ -18,6 +18,7 @@
 		8587DDDF231EF0A200C56F0E /* weather.json in Resources */ = {isa = PBXBuildFile; fileRef = 8587DDDE231EF0A200C56F0E /* weather.json */; };
 		8587DDE1231EF13500C56F0E /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8587DDE0231EF13500C56F0E /* JSON.swift */; };
 		8587DDE3231EF14700C56F0E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8587DDE2231EF14700C56F0E /* DetailViewController.swift */; };
+		8587DDE7231EFAA000C56F0E /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8587DDE6231EFAA000C56F0E /* CountryTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		8587DDDE231EF0A200C56F0E /* weather.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = weather.json; path = ../weather.json; sourceTree = "<group>"; };
 		8587DDE0231EF13500C56F0E /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = ../JSON.swift; sourceTree = "<group>"; };
 		8587DDE2231EF14700C56F0E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8587DDE6231EFAA000C56F0E /* CountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			children = (
 				8587DDE5231EF65800C56F0E /* New Group1 */,
 				8587DDE4231EF62C00C56F0E /* New Group */,
+				8587DDE6231EFAA000C56F0E /* CountryTableViewCell.swift */,
 				8587DDBB231EEA6200C56F0E /* ViewController.swift */,
 				8587DDE2231EF14700C56F0E /* DetailViewController.swift */,
 				8587DDBD231EEA6200C56F0E /* Main.storyboard */,
@@ -235,6 +238,7 @@
 				8587DDBC231EEA6200C56F0E /* ViewController.swift in Sources */,
 				8587DDBA231EEA6200C56F0E /* AppDelegate.swift in Sources */,
 				8587DDE3231EF14700C56F0E /* DetailViewController.swift in Sources */,
+				8587DDE7231EFAA000C56F0E /* CountryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
